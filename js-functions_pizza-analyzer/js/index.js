@@ -6,6 +6,7 @@ const pizzaInput2 = document.querySelector('[data-js="pizza-input-2"]');
 const pizza2 = document.querySelector('[data-js="pizza-2"]');
 const outputSection = document.querySelector('[data-js="output-section"]');
 
+
 const output = document.querySelector('[data-js="output"]');
 
 pizzaInput1.addEventListener("input", () => {
