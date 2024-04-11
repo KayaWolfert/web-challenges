@@ -3,7 +3,7 @@ import "./styles.css";
 import { useState } from "react";
 
 export default function App() {
-  let [code,setCode] = useState("");
+  const [code,setCode] = useState("");
 
   const validCode = "🐡🐠🐋";
 
@@ -48,7 +48,7 @@ export default function App() {
       <button
         type="button"
         onClick={() => {
-          setCode(code = "");
+          setCode("");
           console.log("code is empty now");
         }}
       >

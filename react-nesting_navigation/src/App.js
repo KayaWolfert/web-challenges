@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import logo from "./img/logo.jpg"
 import avatar from "./img/avatar.jpg"
 import Navigation from "./components/Navigation.js";
+import { useState } from "react";
 
 export default function App() {
   return (
