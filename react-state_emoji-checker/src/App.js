@@ -3,7 +3,7 @@ import "./styles.css";
 import { useState } from "react";
 
 export default function App() {
-  let [code,setCode] = useState("?");
+  let [code,setCode] = useState("");
 
   const validCode = "🐡🐠🐋";
 
@@ -14,7 +14,7 @@ export default function App() {
           type="button"
           onClick={(event) => {
             setCode(code + event.target.textContent);
-            console.log(code);
+            console.log(code + event.target.textContent);
           }}
         >
           <span role="img" aria-label="Pufferfish">
@@ -25,7 +25,7 @@ export default function App() {
           type="button"
           onClick={(event) => {
             setCode(code + event.target.textContent);
-            console.log(code);
+            console.log(code + event.target.textContent);
           }}
         >
           <span role="img" aria-label="Whale">
@@ -36,7 +36,7 @@ export default function App() {
           type="button"
           onClick={(event) => {
             setCode(code + event.target.textContent);
-            console.log(code);
+            console.log(code + event.target.textContent);
           }}
         >
           <span role="img" aria-label="Clownfish">
